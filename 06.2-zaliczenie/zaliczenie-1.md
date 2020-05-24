@@ -14,3 +14,6 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
  * Adresację linków pomiędzy routerami
  * Tablice routingów na poszczególnych routerach
  
+ ## Schemat
+
+![zadanie 1](zadanie1.png)
