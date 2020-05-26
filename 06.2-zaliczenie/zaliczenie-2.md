@@ -23,4 +23,7 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
  * Adresy poszczególnych sieci IP
  * Adresację linków pomiędzy routerami
  * Tablice routingów na poszczególnych routerach
+ ## Rozwiązanie
+
+![zadanie 2](zadanie2.png)
  
