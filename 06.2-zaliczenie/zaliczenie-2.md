@@ -30,10 +30,11 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
 # Sieći  
 
 * Lan 1: 172.50.128.0/22, maska: 255.255.252.0
+
 * Lan 2: 192.40.128.0/21, maska: 255.255.248.0  
 podsieci:   
->Lan 2.1: 192.40.128.0/22, maska: 255.255.252.0  
->Lan 2.2: 192.40.132.0/22, maska: 255.255.252.0  
-podsieći: 
-Lan 2.2.1: 192.40.132.0/23, maska: 255.255.254.0  
-Lan 2.2.2: 192.40.134.0/23, maska: 255.255.254.0  
+    Lan 2.1: 192.40.128.0/22, maska: 255.255.252.0  
+    Lan 2.2: 192.40.132.0/22, maska: 255.255.252.0  
+    podsieći: 
+        Lan 2.2.1: 192.40.132.0/23, maska: 255.255.254.0  
+        Lan 2.2.2: 192.40.134.0/23, maska: 255.255.254.0  
