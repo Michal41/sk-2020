@@ -17,20 +17,20 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
  ## Rozwiązanie
 
 ![zadanie 1](zadanie1.png)
-# Śieci
-* Śieć Lan1:  
+# Sieci
+* Sieć Lan1:  
 Adres 192.50.128.0/22  
 Maska podsieci 255.255.252.0  
 Switch  
 PC 192.50.128.2  
 
-* Śieć Lan2   
+* Sieć Lan2   
 Adres 192.40.128.0/22  
 Maska podsieci 255.255.255.255.0  
 Switch  
 PC 192.40.128.50  
 
-* Śieć Lan3  
+* Sieć Lan3  
 Adres 192.30.128.0/22  
 Maska 255.255.252.0  
 Switch  
