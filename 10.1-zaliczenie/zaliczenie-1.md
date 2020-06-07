@@ -1,3 +1,13 @@
+# Zadanie 1
+
+Organizacja planuje ulepszyć działanie istniejącej sieci biurowej.
+
+1. Zaprojektuj oraz udokumentuj konfigurację prototypu rozwiązania z wykorzystaniem oprogramowania ``VirtualBox`` lub podobnego. 
+
+## Schemat
+
+![zadanie 1](office.svg)
+
 ## Wymagania
 
 W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zasoby. Do tej pory organizacja borykała się z ręczna konfiguracją urządzeń oraz adresami IP które dla ludzi z poza kadry technicznej były niezrozumiałe. Postanowiono:
