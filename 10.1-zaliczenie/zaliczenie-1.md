@@ -44,17 +44,17 @@ eth0: adres statyczny 10.192.192.2 maska 255.255.252.0
 eth0 adres statyczny 10.192.192.3 maska 255.255.252.0
 
 ## DHCP
-usługa dhcp skonfiugrowana jest na routerze poprzez użycie programu "dhcpd"  
+Usługa dhcp skonfiugrowana jest na routerze poprzez użycie programu "dhcpd"  
 dodano wpis konfiguracyjny w /etc/dhcp/dhcpd.conf  
 Subnet 10.192.192.0 netmask 255.255.252.0 {  
 range 10.192.192.4 10.192.195.254;  
 option routers 10.192.192.1;
 option domain-name-servers 10.192.192.1, 8.8.8.8, 1.1.1.1}  
 Przedstawiona konfiguracja pozwala na dynamiczne nadawanie adresów z przedziału 10.192.192.4--10.192.195.254  
-oraz definuje bramę domyślna, i servery dns na użądzeniach pracujących w sieci.  
+oraz definuje bramę domyślną, i serwery dns na urządzeniach pracujących w sieci.  
 
 ## NAT  
-usługa nat skonfigurowana jest na routerze poprzez użycie programu "iptables"  
+Usługa nat skonfigurowana jest na routerze poprzez użycie programu "iptables"  
 dodano wpis konfiguracyjny: iptables -t  nat -A POSTROUTING -o eth0 -j MASQERADE  
 echo 1 > /proc/sys/net/ipv4/ip_forward  
 przedstawiona konfiguracja pozwala na translacje adresów na interfejsie eh0 oraz pozwala na przekazywanie pakietów pomiędzy interfejsami routera.  
